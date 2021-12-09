@@ -4,8 +4,9 @@ EzAPIGen is a simple npm package intended to make it easy to make simple REST AP
 
 I made this in one AP CSA class period (and its my first npm package) so its not the best code so please give me feedback if you have any!
 
-Github: [Codehc/EzAPIGen] (https://github.com/Codehc/EzAPIGen)
-NPM: [ezapigen] (https://www.npmjs.com/package/ezapigen)
+Github: [Codehc/EzAPIGen](https://github.com/Codehc/EzAPIGen)
+
+NPM: [ezapigen](https://www.npmjs.com/package/ezapigen)
 
 By Codehc#7786 on discord
 
