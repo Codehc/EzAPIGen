@@ -1,0 +1,12 @@
+{
+  "name": "ezapigen",
+  "version": "0.1.2",
+  "description": "An easy way to make a simple REST API that supports GET requests.",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Codehc",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
