@@ -1,12 +1,19 @@
 {
   "name": "ezapigen",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "An easy way to make a simple REST API that supports GET requests.",
-  "main": "server.js",
+  "main": "src/server.js",
   "keywords": [],
   "author": "Codehc",
   "license": "ISC",
   "dependencies": {
     "esm": "^3.2.25"
+  },
+  "scripts": {
+    "test": "node test/tests.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-google": "^0.14.0"
   }
 }
