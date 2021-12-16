@@ -1,4 +1,4 @@
-const ezapigen = require('..');
+import { registerEndpoint, listen } from '../src/server.mjs'
 const endpoint = require('../src/endpoint');
 
 class repeat extends endpoint {
@@ -44,7 +44,7 @@ class repeat extends endpoint {
 
 // Register new endpoint
 const repeatEndpoint = new repeat();
-ezapigen.registerEndpoint(repeatEndpoint);
+registerEndpoint(repeatEndpoint);
 
 // Start the server
-ezapigen.startServer('127.0.0.1', 8080);
+listen('127.0.0.1', 8080);
